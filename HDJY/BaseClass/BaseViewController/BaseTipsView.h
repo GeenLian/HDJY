@@ -22,10 +22,6 @@ typedef NS_ENUM(NSInteger, TipsViewType) {
 @property (nonatomic, weak)IBOutlet UIButton *button;
 @property (nonatomic, assign, setter = setType:) TipsViewType type;
 
-@property(nonatomic, strong) IBOutlet NSLayoutConstraint *tipsViewHeight;
-
 + (BaseTipsView *)baseTipsViewType:(TipsViewType)type delegate:(id)delegate handler:(SEL)handler;
-
-+ (CGFloat)baseTipsViewHeightWithSuperView:(UIView *)view baseTipsView:(BaseTipsView *)baseTipsView;
 
 @end

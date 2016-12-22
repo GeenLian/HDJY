@@ -94,10 +94,7 @@
 - (void)baseTipsViewFrame:(BaseTipsView *)tipsView SuperView:(UIView *)view {
     CGRect frame = tipsView.frame;
     frame.origin.x = 0;
-    frame.size.height = [BaseTipsView baseTipsViewHeightWithSuperView:view baseTipsView:tipsView];
-    frame.origin.y = (CGRectGetHeight(view.bounds)-frame.size.height)/2.0;
     frame.size.width = CGRectGetWidth(view.bounds);
-    tipsView.autoresizingMask = ViewAutoresizingFlexibleAll;
     tipsView.frame = frame;
 }
 @end

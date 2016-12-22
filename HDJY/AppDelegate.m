@@ -80,6 +80,10 @@
     UIImage *image = [UIImage imageWithColor:[UIColor colorWithRed:0.0594 green:0.3236 blue:0.6013 alpha:1.0]];
     [[UINavigationBar appearance] setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
     [UINavigationBar appearance].shadowImage = [[UIImage alloc] init];
+    
+    if( iOS_VERSION >= 8.0 ){
+        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    }
 }
 
 - (void)setRootViewController {

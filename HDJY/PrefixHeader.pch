@@ -18,6 +18,9 @@
 #import "UIView+CJExtension.h"
 #import "NSString+CJExtension.h"
 #import "UITabBarItem+YCExtension.h"
+#import "UIImageView+SDImageActivityIndicator.h"
+#import "AFNetworking.h"
+
 #import "BaseViewController+NetWorkUIExtension.h"
 #import "BaseViewController.h"
 

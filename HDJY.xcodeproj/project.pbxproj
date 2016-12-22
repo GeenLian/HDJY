@@ -7,13 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DA8976C760084BE0BBE78AE /* libPods-HDJY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E229F066E39B4D73B55EFC /* libPods-HDJY.a */; };
 		B405234F1E0A6396008E0C44 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B405234E1E0A6396008E0C44 /* LaunchScreen.xib */; };
 		B40523561E0A6477008E0C44 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40523521E0A6477008E0C44 /* BaseNavigationController.m */; };
 		B40523571E0A6477008E0C44 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40523551E0A6477008E0C44 /* BaseTabBarController.m */; };
-		B40523611E0A6AD7008E0C44 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B40523601E0A6AD7008E0C44 /* BaseViewController.m */; };
-		B40523641E0A6B41008E0C44 /* BaseViewController+NetWorkUIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B40523631E0A6B41008E0C44 /* BaseViewController+NetWorkUIExtension.m */; };
-		B40523681E0A6B5E008E0C44 /* BaseTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B40523661E0A6B5E008E0C44 /* BaseTipsView.m */; };
-		B40523691E0A6B5E008E0C44 /* BaseTipsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B40523671E0A6B5E008E0C44 /* BaseTipsView.xib */; };
 		B405236F1E0A6D00008E0C44 /* UIBarButtonItem+CJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B405236C1E0A6D00008E0C44 /* UIBarButtonItem+CJExtension.m */; };
 		B40523701E0A6D00008E0C44 /* UIImage+CJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B405236E1E0A6D00008E0C44 /* UIImage+CJExtension.m */; };
 		B40523731E0A6F20008E0C44 /* UIView+CJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B40523721E0A6F20008E0C44 /* UIView+CJExtension.m */; };
@@ -28,6 +25,12 @@
 		B40523A41E0A75A5008E0C44 /* MyCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B40523A21E0A75A5008E0C44 /* MyCenterViewController.xib */; };
 		B40523A71E0A78A7008E0C44 /* UITabBarItem+YCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B40523A61E0A78A7008E0C44 /* UITabBarItem+YCExtension.m */; };
 		B40523AB1E0A7A58008E0C44 /* CJDeviceVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = B40523AA1E0A7A58008E0C44 /* CJDeviceVersion.m */; };
+		B42E471D1E0B814300E97BF6 /* BaseTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B42E47171E0B814300E97BF6 /* BaseTipsView.m */; };
+		B42E471E1E0B814300E97BF6 /* BaseTipsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B42E47181E0B814300E97BF6 /* BaseTipsView.xib */; };
+		B42E471F1E0B814300E97BF6 /* BaseViewController+NetWorkUIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B42E471A1E0B814300E97BF6 /* BaseViewController+NetWorkUIExtension.m */; };
+		B42E47201E0B814300E97BF6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B42E471C1E0B814300E97BF6 /* BaseViewController.m */; };
+		B42E47771E0BD3CA00E97BF6 /* UIScrollView+CJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = B42E47731E0BD3CA00E97BF6 /* UIScrollView+CJRefresh.m */; };
+		B42E47781E0BD3CA00E97BF6 /* UIImageView+SDImageActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B42E47761E0BD3CA00E97BF6 /* UIImageView+SDImageActivityIndicator.m */; };
 		B477CBEE1E0966A100C5E597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B477CBED1E0966A100C5E597 /* main.m */; };
 		B477CBF11E0966A100C5E597 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B477CBF01E0966A100C5E597 /* AppDelegate.m */; };
 		B477CBF91E0966A100C5E597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B477CBF81E0966A100C5E597 /* Assets.xcassets */; };
@@ -53,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6E229F066E39B4D73B55EFC /* libPods-HDJY.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HDJY.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B405234E1E0A6396008E0C44 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		B40523511E0A6477008E0C44 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		B40523521E0A6477008E0C44 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
@@ -61,13 +65,6 @@
 		B40523591E0A64DC008E0C44 /* Application-Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Application-Config.h"; sourceTree = "<group>"; };
 		B405235A1E0A64DC008E0C44 /* General-Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "General-Config.h"; sourceTree = "<group>"; };
 		B405235B1E0A653F008E0C44 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PrefixHeader.pch; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		B405235F1E0A6AD7008E0C44 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = BaseViewController/BaseViewController.h; sourceTree = "<group>"; };
-		B40523601E0A6AD7008E0C44 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = BaseViewController/BaseViewController.m; sourceTree = "<group>"; };
-		B40523621E0A6B41008E0C44 /* BaseViewController+NetWorkUIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "BaseViewController+NetWorkUIExtension.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		B40523631E0A6B41008E0C44 /* BaseViewController+NetWorkUIExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "BaseViewController+NetWorkUIExtension.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		B40523651E0A6B5E008E0C44 /* BaseTipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTipsView.h; sourceTree = "<group>"; };
-		B40523661E0A6B5E008E0C44 /* BaseTipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTipsView.m; sourceTree = "<group>"; };
-		B40523671E0A6B5E008E0C44 /* BaseTipsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTipsView.xib; sourceTree = "<group>"; };
 		B405236B1E0A6D00008E0C44 /* UIBarButtonItem+CJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "UIBarButtonItem+CJExtension.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		B405236C1E0A6D00008E0C44 /* UIBarButtonItem+CJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIBarButtonItem+CJExtension.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		B405236D1E0A6D00008E0C44 /* UIImage+CJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "UIImage+CJExtension.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -92,6 +89,17 @@
 		B40523A61E0A78A7008E0C44 /* UITabBarItem+YCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+YCExtension.m"; sourceTree = "<group>"; };
 		B40523A91E0A7A58008E0C44 /* CJDeviceVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJDeviceVersion.h; sourceTree = "<group>"; };
 		B40523AA1E0A7A58008E0C44 /* CJDeviceVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJDeviceVersion.m; sourceTree = "<group>"; };
+		B42E47161E0B814300E97BF6 /* BaseTipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTipsView.h; sourceTree = "<group>"; };
+		B42E47171E0B814300E97BF6 /* BaseTipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTipsView.m; sourceTree = "<group>"; };
+		B42E47181E0B814300E97BF6 /* BaseTipsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTipsView.xib; sourceTree = "<group>"; };
+		B42E47191E0B814300E97BF6 /* BaseViewController+NetWorkUIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BaseViewController+NetWorkUIExtension.h"; sourceTree = "<group>"; };
+		B42E471A1E0B814300E97BF6 /* BaseViewController+NetWorkUIExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BaseViewController+NetWorkUIExtension.m"; sourceTree = "<group>"; };
+		B42E471B1E0B814300E97BF6 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		B42E471C1E0B814300E97BF6 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		B42E47721E0BD3CA00E97BF6 /* UIScrollView+CJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "UIScrollView+CJRefresh.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		B42E47731E0BD3CA00E97BF6 /* UIScrollView+CJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIScrollView+CJRefresh.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		B42E47751E0BD3CA00E97BF6 /* UIImageView+SDImageActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDImageActivityIndicator.h"; sourceTree = "<group>"; };
+		B42E47761E0BD3CA00E97BF6 /* UIImageView+SDImageActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDImageActivityIndicator.m"; sourceTree = "<group>"; };
 		B477CBE91E0966A100C5E597 /* HDJY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDJY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B477CBED1E0966A100C5E597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B477CBEF1E0966A100C5E597 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +112,8 @@
 		B477CC0D1E0966A100C5E597 /* HDJYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDJYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B477CC111E0966A100C5E597 /* HDJYUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDJYUITests.m; sourceTree = "<group>"; };
 		B477CC131E0966A100C5E597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B482BBECCA85EDC2A59B82ED /* Pods-HDJY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDJY.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HDJY/Pods-HDJY.debug.xcconfig"; sourceTree = "<group>"; };
+		DD147A6E5A086AD3DA2F0C67 /* Pods-HDJY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDJY.release.xcconfig"; path = "Pods/Target Support Files/Pods-HDJY/Pods-HDJY.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DA8976C760084BE0BBE78AE /* libPods-HDJY.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,16 +142,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A5E4A3CBBF45863A85EEBA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B482BBECCA85EDC2A59B82ED /* Pods-HDJY.debug.xcconfig */,
+				DD147A6E5A086AD3DA2F0C67 /* Pods-HDJY.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B405234A1E0A629C008E0C44 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
-				B405235F1E0A6AD7008E0C44 /* BaseViewController.h */,
-				B40523601E0A6AD7008E0C44 /* BaseViewController.m */,
-				B40523621E0A6B41008E0C44 /* BaseViewController+NetWorkUIExtension.h */,
-				B40523631E0A6B41008E0C44 /* BaseViewController+NetWorkUIExtension.m */,
-				B40523651E0A6B5E008E0C44 /* BaseTipsView.h */,
-				B40523661E0A6B5E008E0C44 /* BaseTipsView.m */,
-				B40523671E0A6B5E008E0C44 /* BaseTipsView.xib */,
+				B42E47151E0B814300E97BF6 /* BaseViewController */,
 				B40523501E0A6477008E0C44 /* BaseNavigationController */,
 				B40523531E0A6477008E0C44 /* BaseTabBarController */,
 			);
@@ -157,6 +171,8 @@
 		B405234C1E0A629C008E0C44 /* ThirdLib */ = {
 			isa = PBXGroup;
 			children = (
+				B42E47711E0BD3CA00E97BF6 /* CJMJRefresh */,
+				B42E47741E0BD3CA00E97BF6 /* SDWebImage */,
 			);
 			path = ThirdLib;
 			sourceTree = "<group>";
@@ -402,6 +418,38 @@
 			path = Device;
 			sourceTree = "<group>";
 		};
+		B42E47151E0B814300E97BF6 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B42E47161E0B814300E97BF6 /* BaseTipsView.h */,
+				B42E47171E0B814300E97BF6 /* BaseTipsView.m */,
+				B42E47181E0B814300E97BF6 /* BaseTipsView.xib */,
+				B42E47191E0B814300E97BF6 /* BaseViewController+NetWorkUIExtension.h */,
+				B42E471A1E0B814300E97BF6 /* BaseViewController+NetWorkUIExtension.m */,
+				B42E471B1E0B814300E97BF6 /* BaseViewController.h */,
+				B42E471C1E0B814300E97BF6 /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		B42E47711E0BD3CA00E97BF6 /* CJMJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				B42E47721E0BD3CA00E97BF6 /* UIScrollView+CJRefresh.h */,
+				B42E47731E0BD3CA00E97BF6 /* UIScrollView+CJRefresh.m */,
+			);
+			path = CJMJRefresh;
+			sourceTree = "<group>";
+		};
+		B42E47741E0BD3CA00E97BF6 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				B42E47751E0BD3CA00E97BF6 /* UIImageView+SDImageActivityIndicator.h */,
+				B42E47761E0BD3CA00E97BF6 /* UIImageView+SDImageActivityIndicator.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
 		B477CBE01E0966A100C5E597 = {
 			isa = PBXGroup;
 			children = (
@@ -409,6 +457,8 @@
 				B477CC051E0966A100C5E597 /* HDJYTests */,
 				B477CC101E0966A100C5E597 /* HDJYUITests */,
 				B477CBEA1E0966A100C5E597 /* Products */,
+				8A5E4A3CBBF45863A85EEBA0 /* Pods */,
+				D72B674647F7913E11CF4E71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -468,6 +518,14 @@
 			path = HDJYUITests;
 			sourceTree = "<group>";
 		};
+		D72B674647F7913E11CF4E71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6E229F066E39B4D73B55EFC /* libPods-HDJY.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -475,9 +533,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B477CC161E0966A100C5E597 /* Build configuration list for PBXNativeTarget "HDJY" */;
 			buildPhases = (
+				85D6BBEBDC5188B16C934308 /* [CP] Check Pods Manifest.lock */,
 				B477CBE51E0966A100C5E597 /* Sources */,
 				B477CBE61E0966A100C5E597 /* Frameworks */,
 				B477CBE71E0966A100C5E597 /* Resources */,
+				809684E9088ED5CD41406FAA /* [CP] Embed Pods Frameworks */,
+				9BFC86FF8806AAAA96A71B92 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -575,9 +636,9 @@
 				B40523951E0A7564008E0C44 /* SchoolViewController.xib in Resources */,
 				B405239A1E0A757F008E0C44 /* InformationViewController.xib in Resources */,
 				B405239F1E0A7590008E0C44 /* MessageViewController.xib in Resources */,
-				B40523691E0A6B5E008E0C44 /* BaseTipsView.xib in Resources */,
 				B405234F1E0A6396008E0C44 /* LaunchScreen.xib in Resources */,
 				B477CBF91E0966A100C5E597 /* Assets.xcassets in Resources */,
+				B42E471E1E0B814300E97BF6 /* BaseTipsView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +658,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		809684E9088ED5CD41406FAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HDJY/Pods-HDJY-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85D6BBEBDC5188B16C934308 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BFC86FF8806AAAA96A71B92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HDJY/Pods-HDJY-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B477CBE51E0966A100C5E597 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -607,17 +716,19 @@
 				B40523A71E0A78A7008E0C44 /* UITabBarItem+YCExtension.m in Sources */,
 				B40523991E0A757F008E0C44 /* InformationViewController.m in Sources */,
 				B40523761E0A701E008E0C44 /* NSString+CJExtension.m in Sources */,
+				B42E47771E0BD3CA00E97BF6 /* UIScrollView+CJRefresh.m in Sources */,
 				B40523731E0A6F20008E0C44 /* UIView+CJExtension.m in Sources */,
-				B40523641E0A6B41008E0C44 /* BaseViewController+NetWorkUIExtension.m in Sources */,
+				B42E471D1E0B814300E97BF6 /* BaseTipsView.m in Sources */,
+				B42E47201E0B814300E97BF6 /* BaseViewController.m in Sources */,
 				B40523AB1E0A7A58008E0C44 /* CJDeviceVersion.m in Sources */,
+				B42E47781E0BD3CA00E97BF6 /* UIImageView+SDImageActivityIndicator.m in Sources */,
 				B40523571E0A6477008E0C44 /* BaseTabBarController.m in Sources */,
 				B405239E1E0A7590008E0C44 /* MessageViewController.m in Sources */,
-				B40523611E0A6AD7008E0C44 /* BaseViewController.m in Sources */,
 				B40523561E0A6477008E0C44 /* BaseNavigationController.m in Sources */,
 				B405236F1E0A6D00008E0C44 /* UIBarButtonItem+CJExtension.m in Sources */,
+				B42E471F1E0B814300E97BF6 /* BaseViewController+NetWorkUIExtension.m in Sources */,
 				B477CBF11E0966A100C5E597 /* AppDelegate.m in Sources */,
 				B40523701E0A6D00008E0C44 /* UIImage+CJExtension.m in Sources */,
-				B40523681E0A6B5E008E0C44 /* BaseTipsView.m in Sources */,
 				B477CBEE1E0966A100C5E597 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -738,6 +849,7 @@
 		};
 		B477CC171E0966A100C5E597 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B482BBECCA85EDC2A59B82ED /* Pods-HDJY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -752,6 +864,7 @@
 		};
 		B477CC181E0966A100C5E597 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD147A6E5A086AD3DA2F0C67 /* Pods-HDJY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

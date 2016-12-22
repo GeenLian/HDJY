@@ -76,7 +76,7 @@
 }
 
 - (UIBarButtonItem *)creatBackRootViewBarItem:(BOOL)backRootView {
-    UIImage *selectedImage=[UIImage imageNamed: @"left_back"];
+    UIImage *selectedImage=[UIImage imageNamed: @"back-icon"];
     //设置图片颜色，不然UIBarButtonItem背景图颜色会取tintColor的颜色
     selectedImage = [selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     if (backRootView) {

@@ -10,6 +10,20 @@
 
 @implementation BaseTipsView
 
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    CGRect frame = self.frame;
+    if (self.type == NetErrorType) {
+        frame.size.height = CGRectGetMaxY(self.button.frame);
+    }else if (self.type == NotDataType) {
+        frame.size.height = CGRectGetMaxY(self.textLabel.frame);
+    }
+    frame.origin.y = (CGRectGetHeight(self.superview.bounds)-frame.size.height)/2.0;
+    self.frame = frame;
+    self.textLabel.preferredMaxLayoutWidth = CGRectGetWidth(self.superview.bounds)-20;
+}
+
+//超出范围的button也可点击
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
     
     UIView *result = [super hitTest:point withEvent:event];
@@ -33,18 +47,14 @@
     
     if (type == NotDataType) {
         self.button.hidden = YES;
-//        self.textBottom.constant = 0;
         self.imageView.image = [UIImage imageNamed:@"img_general_nodata"];
         self.textLabel.font = [UIFont systemFontOfSize:17];
-        self.textLabel.text = @"空空如也";
-        
+        self.textLabel.text = @"无数据";
     }else if (type == NetErrorType) {
         self.button.hidden = NO;
-//        self.textBottom.constant = 53;
         self.imageView.image = [UIImage imageNamed:@"img_general_noInternet"];
         self.textLabel.font = [UIFont systemFontOfSize:15];
-        self.textLabel.text = @"您已超速驾驶，网络都跟不上啦";
-        
+        self.textLabel.text = @"网络错误";
     }
     [self updateConstraints];
     [self setNeedsLayout];
@@ -59,24 +69,4 @@
     return view;
 }
 
-+ (CGFloat)baseTipsViewHeightWithSuperView:(UIView *)view baseTipsView:(BaseTipsView *)baseTipsView {
-    
-    CGFloat height = 217*CGRectGetWidth(view.frame)/375.0 + 25 + (ScreenWidth > 375.0?10:0);
-    
-    UIFont *font = [UIFont systemFontOfSize:15];
-    if (baseTipsView.type == NotDataType) {
-        font = [UIFont systemFontOfSize:17];
-    }else if (baseTipsView.type == NetErrorType) {
-        font = [UIFont systemFontOfSize:15];
-    }
-    
-    CGSize textSize = [NSString sizeWithString:baseTipsView.textLabel.text font:font width:CGRectGetWidth(view.bounds)-20 height:MAXFLOAT];
-    
-    if (baseTipsView.type == NotDataType) {
-        height = height + textSize.height;
-    }else if (baseTipsView.type == NetErrorType) {
-        height = height + textSize.height + 15 + 38;
-    }
-    return height;
-}
 @end
